@@ -1,3 +1,9 @@
+/*
+  Project Name: fastify-vite-solidjs
+  License: MIT
+  Created by: Lightnet
+*/
+
 //route api
 
 export default function routeAPIs(fastify, opts, done) {

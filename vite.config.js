@@ -1,5 +1,5 @@
 /*
-  Project Name: solid-js-sandbox
+  Project Name: fastify-vite-solidjs
   License: MIT
   Created by: Lightnet
 */

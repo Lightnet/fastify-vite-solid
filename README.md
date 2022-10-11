@@ -1,5 +1,7 @@
 # fastify-vite-solid
 
+# License: MIT
+
 # Program:
   - nodejs
 

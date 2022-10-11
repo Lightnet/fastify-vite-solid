@@ -1,4 +1,8 @@
-
+/*
+  Project Name: fastify-vite-solidjs
+  License: MIT
+  Created by: Lightnet
+*/
 
 import fs from 'fs'
 import path from 'path'
