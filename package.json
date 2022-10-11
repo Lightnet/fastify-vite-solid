@@ -1,18 +1,17 @@
 {
-  "name": "fastifysolidjs",
+  "name": "fastify-vite-solidjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fastify/express": "^2.0.2",
-    "@fastify/static": "^6.5.0",
     "fastify": "^4.8.1",
     "solid-js": "^1.5.7",
     "solid-utils": "^0.8.1",
