@@ -1,15 +1,19 @@
 {
   "name": "fastify-vite-solidjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Work in progress testing web auth build.",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@fastify/express": "^2.0.2",
     "fastify": "^4.8.1",

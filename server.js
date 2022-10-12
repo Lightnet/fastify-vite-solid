@@ -23,7 +23,7 @@ import routeAPIs from './src/server/api.js';
 
   console.log("int web server...")
 
-  const port = 3000;
+  const port = process.env.PORT || 3000;
 
   const fastify = Fastify({
     // Set this to true for detailed logging:
@@ -66,7 +66,7 @@ import routeAPIs from './src/server/api.js';
   });
 
   // Run the server!
-  fastify.listen({ port: port }, function (err, address) {
+  fastify.listen({ port: port, host: "0.0.0.0" }, function (err, address) {
     if (err) {
       fastify.log.error(err)
       process.exit(1)
